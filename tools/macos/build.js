@@ -10,6 +10,20 @@ const { DESK } = require('./desk.js');
 const apple = require('./apple.js'), apps = require('./apps.js'), system = require('./system.js'), vigil = require('./vigil.js');
 const ROOT = path.join(__dirname, '..', '..');
 const put = (rel, buf) => { const f = path.join(ROOT, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, Buffer.from(buf)); };
+const verifyPrevious = process.argv.includes('--verify-previous');
+let verifiedPrevious = 0;
+// Preserve the existing renderer, geometry and lighting. Only remove the final 512px reduction.
+const putMaster = (rel, cv) => {
+  if (cv.w !== 1024 || cv.h !== 1024) throw Error('Icon master must be 1024x1024: ' + rel);
+  const file = path.join(ROOT, rel);
+  if (verifyPrevious && fs.existsSync(file)) {
+    const old = fs.readFileSync(file), size = old.readUInt32BE(16);
+    const sameDesign = Buffer.from(PL.png(size === 512 ? PL.resample(cv, 512) : cv));
+    if (!old.equals(sameDesign)) throw Error('Existing artwork differs from its original renderer: ' + rel);
+    verifiedPrevious++;
+  }
+  put(rel, PL.png(cv));
+};
 const want = process.argv[2];
 const run = (k) => !want || want === k;
 
@@ -17,7 +31,7 @@ if (run('icons')) {
   const all = [].concat(system, apple.map((d) => ({ ...d, group: 'apple' })), apps, vigil.filter((d) => d.group === 'vigiltech'));
   for (const d of all) for (const v of ['rose', 'night']) {
     const big = PL.desktop((n) => renderIcon(d, v, n), 1024);
-    put(`icons/${v}/${d.group}/${d.id}.png`, PL.png(PL.resample(big, 512)));
+    putMaster(`icons/${v}/${d.group}/${d.id}.png`, big);
   }
   put('icons.json', JSON.stringify(all.map(({ id, name, group }) => ({ id, name, group })), null, 1));
   console.log('icons', all.length);
@@ -30,7 +44,7 @@ if (run('folders')) {
 if (run('avatars')) {
   const ids = ['vigiltech', 'star', 'rose', 'compline', 'candle', 'dove', 'rosewindow', 'hope'];
   const src = vigil.filter((d) => ids.includes(d.id));
-  for (const d of src) for (const v of ['rose', 'night']) { const cv = renderIcon(d, v, 1024); put(`avatars/${d.id}-${v}.png`, PL.png({ w: 512, h: 512, toRGBA: () => PL.resample(cv, 512).toRGBA() })); }
+  for (const d of src) for (const v of ['rose', 'night']) { const cv = renderIcon(d, v, 1024); putMaster(`avatars/${d.id}-${v}.png`, cv); }
   console.log('avatars', src.length);
 }
 if (run('wallpapers')) {
@@ -48,3 +62,5 @@ if (run('sounds')) {
   for (const f of fs.readdirSync(src).filter((x) => x.endsWith('.wav') && !x.startsWith('kyrie'))) execFileSync('afconvert', ['-f', 'AIFF', '-d', 'BEI16', path.join(src, f), path.join(ROOT, 'sounds', f.replace('.wav', '.aiff'))]);
   console.log('sounds converted');
 }
+
+if (verifyPrevious) console.log('Verified unchanged original artwork for', verifiedPrevious, 'masters.');
