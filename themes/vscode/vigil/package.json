@@ -1,0 +1,28 @@
+{
+  "name": "vigil-theme",
+  "displayName": "Vigil",
+  "description": "VigilTech pink and plum themes, Night and Dawn",
+  "version": "1.0.0",
+  "publisher": "vigiltech",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vigil Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vigil-night-color-theme.json"
+      },
+      {
+        "label": "Vigil Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/vigil-dawn-color-theme.json"
+      }
+    ]
+  }
+}

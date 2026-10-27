@@ -1,0 +1,74 @@
+[
+ {
+  "id": "folder",
+  "name": "Folder"
+ },
+ {
+  "id": "documents",
+  "name": "Documents"
+ },
+ {
+  "id": "downloads",
+  "name": "Downloads"
+ },
+ {
+  "id": "desktop",
+  "name": "Desktop"
+ },
+ {
+  "id": "applications",
+  "name": "Applications"
+ },
+ {
+  "id": "pictures",
+  "name": "Pictures"
+ },
+ {
+  "id": "music",
+  "name": "Music"
+ },
+ {
+  "id": "movies",
+  "name": "Movies"
+ },
+ {
+  "id": "home",
+  "name": "Home"
+ },
+ {
+  "id": "developer",
+  "name": "Developer"
+ },
+ {
+  "id": "games",
+  "name": "Games"
+ },
+ {
+  "id": "projects",
+  "name": "Projects"
+ },
+ {
+  "id": "archive",
+  "name": "Archive"
+ },
+ {
+  "id": "shared",
+  "name": "Shared"
+ },
+ {
+  "id": "private",
+  "name": "Private"
+ },
+ {
+  "id": "backups",
+  "name": "Backups"
+ },
+ {
+  "id": "library",
+  "name": "Library"
+ },
+ {
+  "id": "work",
+  "name": "Work"
+ }
+]

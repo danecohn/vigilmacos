@@ -1,0 +1,782 @@
+[
+ {
+  "id": "finder",
+  "name": "Finder",
+  "group": "system"
+ },
+ {
+  "id": "launchpad",
+  "name": "Launchpad",
+  "group": "system"
+ },
+ {
+  "id": "missioncontrol",
+  "name": "Mission Control",
+  "group": "system"
+ },
+ {
+  "id": "textedit",
+  "name": "TextEdit",
+  "group": "system"
+ },
+ {
+  "id": "terminal",
+  "name": "Terminal",
+  "group": "system"
+ },
+ {
+  "id": "activitymonitor",
+  "name": "Activity Monitor",
+  "group": "system"
+ },
+ {
+  "id": "diskutility",
+  "name": "Disk Utility",
+  "group": "system"
+ },
+ {
+  "id": "console",
+  "name": "Console",
+  "group": "system"
+ },
+ {
+  "id": "automator",
+  "name": "Automator",
+  "group": "system"
+ },
+ {
+  "id": "scripteditor",
+  "name": "Script Editor",
+  "group": "system"
+ },
+ {
+  "id": "fontbook",
+  "name": "Font Book",
+  "group": "system"
+ },
+ {
+  "id": "dictionary",
+  "name": "Dictionary",
+  "group": "system"
+ },
+ {
+  "id": "quicktime",
+  "name": "QuickTime Player",
+  "group": "system"
+ },
+ {
+  "id": "xcode",
+  "name": "Xcode",
+  "group": "system"
+ },
+ {
+  "id": "chess",
+  "name": "Chess",
+  "group": "system"
+ },
+ {
+  "id": "stickies",
+  "name": "Stickies",
+  "group": "system"
+ },
+ {
+  "id": "screenshot",
+  "name": "Screenshot",
+  "group": "system"
+ },
+ {
+  "id": "timemachine",
+  "name": "Time Machine",
+  "group": "system"
+ },
+ {
+  "id": "trash",
+  "name": "Trash",
+  "group": "system"
+ },
+ {
+  "id": "trashfull",
+  "name": "Trash (full)",
+  "group": "system"
+ },
+ {
+  "id": "photobooth",
+  "name": "Photo Booth",
+  "group": "system"
+ },
+ {
+  "id": "airdrop",
+  "name": "AirDrop",
+  "group": "system"
+ },
+ {
+  "id": "harddrive",
+  "name": "Macintosh HD",
+  "group": "system"
+ },
+ {
+  "id": "externaldrive",
+  "name": "External Drive",
+  "group": "system"
+ },
+ {
+  "id": "usb",
+  "name": "USB Drive",
+  "group": "system"
+ },
+ {
+  "id": "network",
+  "name": "Network Volume",
+  "group": "system"
+ },
+ {
+  "id": "diskimage",
+  "name": "Disk Image",
+  "group": "system"
+ },
+ {
+  "id": "icloud",
+  "name": "iCloud Drive",
+  "group": "system"
+ },
+ {
+  "id": "phone",
+  "name": "Phone",
+  "group": "apple"
+ },
+ {
+  "id": "messages",
+  "name": "Messages",
+  "group": "apple"
+ },
+ {
+  "id": "facetime",
+  "name": "FaceTime",
+  "group": "apple"
+ },
+ {
+  "id": "mail",
+  "name": "Mail",
+  "group": "apple"
+ },
+ {
+  "id": "safari",
+  "name": "Safari",
+  "group": "apple"
+ },
+ {
+  "id": "maps",
+  "name": "Maps",
+  "group": "apple"
+ },
+ {
+  "id": "photos",
+  "name": "Photos",
+  "group": "apple"
+ },
+ {
+  "id": "camera",
+  "name": "Camera",
+  "group": "apple"
+ },
+ {
+  "id": "music",
+  "name": "Music",
+  "group": "apple"
+ },
+ {
+  "id": "podcasts",
+  "name": "Podcasts",
+  "group": "apple"
+ },
+ {
+  "id": "tv",
+  "name": "TV",
+  "group": "apple"
+ },
+ {
+  "id": "books",
+  "name": "Books",
+  "group": "apple"
+ },
+ {
+  "id": "news",
+  "name": "News",
+  "group": "apple"
+ },
+ {
+  "id": "stocks",
+  "name": "Stocks",
+  "group": "apple"
+ },
+ {
+  "id": "weather",
+  "name": "Weather",
+  "group": "apple"
+ },
+ {
+  "id": "clock",
+  "name": "Clock",
+  "group": "apple"
+ },
+ {
+  "id": "calendar",
+  "name": "Calendar",
+  "group": "apple"
+ },
+ {
+  "id": "notes",
+  "name": "Notes",
+  "group": "apple"
+ },
+ {
+  "id": "reminders",
+  "name": "Reminders",
+  "group": "apple"
+ },
+ {
+  "id": "freeform",
+  "name": "Freeform",
+  "group": "apple"
+ },
+ {
+  "id": "files",
+  "name": "Files",
+  "group": "apple"
+ },
+ {
+  "id": "wallet",
+  "name": "Wallet",
+  "group": "apple"
+ },
+ {
+  "id": "health",
+  "name": "Health",
+  "group": "apple"
+ },
+ {
+  "id": "fitness",
+  "name": "Fitness",
+  "group": "apple"
+ },
+ {
+  "id": "home",
+  "name": "Home",
+  "group": "apple"
+ },
+ {
+  "id": "shortcuts",
+  "name": "Shortcuts",
+  "group": "apple"
+ },
+ {
+  "id": "settings",
+  "name": "Settings",
+  "group": "apple"
+ },
+ {
+  "id": "calculator",
+  "name": "Calculator",
+  "group": "apple"
+ },
+ {
+  "id": "compass",
+  "name": "Compass",
+  "group": "apple"
+ },
+ {
+  "id": "measure",
+  "name": "Measure",
+  "group": "apple"
+ },
+ {
+  "id": "magnifier",
+  "name": "Magnifier",
+  "group": "apple"
+ },
+ {
+  "id": "voicememos",
+  "name": "Voice Memos",
+  "group": "apple"
+ },
+ {
+  "id": "translate",
+  "name": "Translate",
+  "group": "apple"
+ },
+ {
+  "id": "contacts",
+  "name": "Contacts",
+  "group": "apple"
+ },
+ {
+  "id": "findmy",
+  "name": "Find My",
+  "group": "apple"
+ },
+ {
+  "id": "appstore",
+  "name": "App Store",
+  "group": "apple"
+ },
+ {
+  "id": "watch",
+  "name": "Watch",
+  "group": "apple"
+ },
+ {
+  "id": "tips",
+  "name": "Tips",
+  "group": "apple"
+ },
+ {
+  "id": "journal",
+  "name": "Journal",
+  "group": "apple"
+ },
+ {
+  "id": "passwords",
+  "name": "Passwords",
+  "group": "apple"
+ },
+ {
+  "id": "keynote",
+  "name": "Keynote",
+  "group": "apple"
+ },
+ {
+  "id": "pages",
+  "name": "Pages",
+  "group": "apple"
+ },
+ {
+  "id": "numbers",
+  "name": "Numbers",
+  "group": "apple"
+ },
+ {
+  "id": "gamecenter",
+  "name": "Game Center",
+  "group": "apple"
+ },
+ {
+  "id": "games",
+  "name": "Games",
+  "group": "apple"
+ },
+ {
+  "id": "applestore",
+  "name": "Apple Store",
+  "group": "apple"
+ },
+ {
+  "id": "support",
+  "name": "Support",
+  "group": "apple"
+ },
+ {
+  "id": "siri",
+  "name": "Siri",
+  "group": "apple"
+ },
+ {
+  "id": "invites",
+  "name": "Invites",
+  "group": "apple"
+ },
+ {
+  "id": "sports",
+  "name": "Sports",
+  "group": "apple"
+ },
+ {
+  "id": "testflight",
+  "name": "TestFlight",
+  "group": "apple"
+ },
+ {
+  "id": "swiftplay",
+  "name": "Swift Playgrounds",
+  "group": "apple"
+ },
+ {
+  "id": "developer",
+  "name": "Developer",
+  "group": "apple"
+ },
+ {
+  "id": "classical",
+  "name": "Music Classical",
+  "group": "apple"
+ },
+ {
+  "id": "itunes",
+  "name": "iTunes Store",
+  "group": "apple"
+ },
+ {
+  "id": "clips",
+  "name": "Clips",
+  "group": "apple"
+ },
+ {
+  "id": "playground",
+  "name": "Image Playground",
+  "group": "apple"
+ },
+ {
+  "id": "preview",
+  "name": "Preview",
+  "group": "apple"
+ },
+ {
+  "id": "instagram",
+  "name": "Instagram",
+  "group": "apps"
+ },
+ {
+  "id": "facebook",
+  "name": "Facebook",
+  "group": "apps"
+ },
+ {
+  "id": "whatsapp",
+  "name": "WhatsApp",
+  "group": "apps"
+ },
+ {
+  "id": "x",
+  "name": "X",
+  "group": "apps"
+ },
+ {
+  "id": "threads",
+  "name": "Threads",
+  "group": "apps"
+ },
+ {
+  "id": "tiktok",
+  "name": "TikTok",
+  "group": "apps"
+ },
+ {
+  "id": "snapchat",
+  "name": "Snapchat",
+  "group": "apps"
+ },
+ {
+  "id": "youtube",
+  "name": "YouTube",
+  "group": "apps"
+ },
+ {
+  "id": "netflix",
+  "name": "Netflix",
+  "group": "apps"
+ },
+ {
+  "id": "spotify",
+  "name": "Spotify",
+  "group": "apps"
+ },
+ {
+  "id": "discord",
+  "name": "Discord",
+  "group": "apps"
+ },
+ {
+  "id": "reddit",
+  "name": "Reddit",
+  "group": "apps"
+ },
+ {
+  "id": "telegram",
+  "name": "Telegram",
+  "group": "apps"
+ },
+ {
+  "id": "signal",
+  "name": "Signal",
+  "group": "apps"
+ },
+ {
+  "id": "linkedin",
+  "name": "LinkedIn",
+  "group": "apps"
+ },
+ {
+  "id": "pinterest",
+  "name": "Pinterest",
+  "group": "apps"
+ },
+ {
+  "id": "twitch",
+  "name": "Twitch",
+  "group": "apps"
+ },
+ {
+  "id": "gmail",
+  "name": "Gmail",
+  "group": "apps"
+ },
+ {
+  "id": "chrome",
+  "name": "Chrome",
+  "group": "apps"
+ },
+ {
+  "id": "drive",
+  "name": "Google Drive",
+  "group": "apps"
+ },
+ {
+  "id": "google",
+  "name": "Google",
+  "group": "apps"
+ },
+ {
+  "id": "amazon",
+  "name": "Amazon",
+  "group": "apps"
+ },
+ {
+  "id": "uber",
+  "name": "Uber",
+  "group": "apps"
+ },
+ {
+  "id": "lyft",
+  "name": "Lyft",
+  "group": "apps"
+ },
+ {
+  "id": "airbnb",
+  "name": "Airbnb",
+  "group": "apps"
+ },
+ {
+  "id": "paypal",
+  "name": "PayPal",
+  "group": "apps"
+ },
+ {
+  "id": "venmo",
+  "name": "Venmo",
+  "group": "apps"
+ },
+ {
+  "id": "cashapp",
+  "name": "Cash App",
+  "group": "apps"
+ },
+ {
+  "id": "slack",
+  "name": "Slack",
+  "group": "apps"
+ },
+ {
+  "id": "zoom",
+  "name": "Zoom",
+  "group": "apps"
+ },
+ {
+  "id": "teams",
+  "name": "Teams",
+  "group": "apps"
+ },
+ {
+  "id": "outlook",
+  "name": "Outlook",
+  "group": "apps"
+ },
+ {
+  "id": "dropbox",
+  "name": "Dropbox",
+  "group": "apps"
+ },
+ {
+  "id": "notion",
+  "name": "Notion",
+  "group": "apps"
+ },
+ {
+  "id": "duolingo",
+  "name": "Duolingo",
+  "group": "apps"
+ },
+ {
+  "id": "shazam",
+  "name": "Shazam",
+  "group": "apps"
+ },
+ {
+  "id": "bluesky",
+  "name": "Bluesky",
+  "group": "apps"
+ },
+ {
+  "id": "mastodon",
+  "name": "Mastodon",
+  "group": "apps"
+ },
+ {
+  "id": "steam",
+  "name": "Steam",
+  "group": "apps"
+ },
+ {
+  "id": "roblox",
+  "name": "Roblox",
+  "group": "apps"
+ },
+ {
+  "id": "github",
+  "name": "GitHub",
+  "group": "apps"
+ },
+ {
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "group": "apps"
+ },
+ {
+  "id": "claude",
+  "name": "Claude",
+  "group": "apps"
+ },
+ {
+  "id": "gemini",
+  "name": "Gemini",
+  "group": "apps"
+ },
+ {
+  "id": "disney",
+  "name": "Disney+",
+  "group": "apps"
+ },
+ {
+  "id": "hulu",
+  "name": "Hulu",
+  "group": "apps"
+ },
+ {
+  "id": "max",
+  "name": "Max",
+  "group": "apps"
+ },
+ {
+  "id": "primevideo",
+  "name": "Prime Video",
+  "group": "apps"
+ },
+ {
+  "id": "tinder",
+  "name": "Tinder",
+  "group": "apps"
+ },
+ {
+  "id": "bumble",
+  "name": "Bumble",
+  "group": "apps"
+ },
+ {
+  "id": "doordash",
+  "name": "DoorDash",
+  "group": "apps"
+ },
+ {
+  "id": "messenger",
+  "name": "Messenger",
+  "group": "apps"
+ },
+ {
+  "id": "gphotos",
+  "name": "Google Photos",
+  "group": "apps"
+ },
+ {
+  "id": "maps2",
+  "name": "Google Maps",
+  "group": "apps"
+ },
+ {
+  "id": "strava",
+  "name": "Strava",
+  "group": "apps"
+ },
+ {
+  "id": "capcut",
+  "name": "CapCut",
+  "group": "apps"
+ },
+ {
+  "id": "vigiltech",
+  "name": "VigilTech",
+  "group": "vigiltech"
+ },
+ {
+  "id": "drive",
+  "name": "Vigil Drive",
+  "group": "vigiltech"
+ },
+ {
+  "id": "social",
+  "name": "Vigil Social",
+  "group": "vigiltech"
+ },
+ {
+  "id": "lookout",
+  "name": "Vigil Lookout",
+  "group": "vigiltech"
+ },
+ {
+  "id": "mail",
+  "name": "Vigil Mail",
+  "group": "vigiltech"
+ },
+ {
+  "id": "calendar",
+  "name": "Vigil Calendar",
+  "group": "vigiltech"
+ },
+ {
+  "id": "producer",
+  "name": "Game Producer",
+  "group": "vigiltech"
+ },
+ {
+  "id": "engine",
+  "name": "Vigil Engine",
+  "group": "vigiltech"
+ },
+ {
+  "id": "render",
+  "name": "Vigil Render",
+  "group": "vigiltech"
+ },
+ {
+  "id": "sprite",
+  "name": "Vigil Sprite",
+  "group": "vigiltech"
+ },
+ {
+  "id": "box",
+  "name": "Vigil Box",
+  "group": "vigiltech"
+ },
+ {
+  "id": "assets",
+  "name": "Vigil Assets",
+  "group": "vigiltech"
+ },
+ {
+  "id": "notes",
+  "name": "Vigil Notes",
+  "group": "vigiltech"
+ },
+ {
+  "id": "give",
+  "name": "Vigil Give",
+  "group": "vigiltech"
+ }
+]
